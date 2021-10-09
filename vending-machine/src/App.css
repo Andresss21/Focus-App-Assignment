@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+.custom-card {
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2rem !important
+}
+
+.top-container {
+  display: flex;
+  align-items: center
+}
+
+.product-image {
+  border-radius: 10px;
+}
+
+.middle-container {
+  background-color: #eee;
+  border-radius: 12px
+}
+
+.prep-time {
+  font-size: 15px;
+  color: #272727;
+  font-weight: bold
+}
+
+.amount {
+  color: #5957f9;
+  font-size: 16px;
+  font-weight: bold
+}
+
+
+.products-section{
+  height: 90vh;
+  overflow: auto;
+}
+
+.button-selection{
+  background-color: #0000;
+  border: 2px solid #5957f9;
+  border-radius: 5px;
+  color: #5957f9;
+}
+
+.button-selection:hover{
+  background-color: #5957f9;
+  border: 2px solid #0000;
+  color: #fff;
+}
