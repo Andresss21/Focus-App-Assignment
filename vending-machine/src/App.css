@@ -37,6 +37,27 @@
   }
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1faee;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5957f9;
+  border-radius: 1.5rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3D3AF8;
+}
+
 .custom-card {
   background-color: #fff;
   border-radius: 30px;
@@ -99,8 +120,8 @@
 }
 
 .progress-done {
-	background: linear-gradient(to left, #F2709C, #FF9472);
-	box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
+	background: linear-gradient(to left, #5957f9, #7876F9);
+	box-shadow: 0 3px 3px -5px #5957f9, 0 2px 5px #5957f9;
 	border-radius: 20px;
 	color: #fff;
 	display: flex;
@@ -110,4 +131,15 @@
 	width: 0;
 	opacity: 0;
 	transition: 1s ease 0.3s;
+}
+
+.list-section{
+  height: 40vh;
+  overflow: auto;
+  background-color: #f1faee;
+  margin-left: 1rem;
+}
+
+.button-size{
+  width : 100%
 }

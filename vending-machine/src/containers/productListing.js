@@ -30,13 +30,13 @@ export const ProductListing = () => {
             <div className="container">
 
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-md-6 col-sm-12">
                         <div className="row products-section">
                         <ProductComponent />
                         </div>
                     </div>
 
-                    <div className="col-6">
+                    <div className="col-md-6 col-sm-12">
                         <div className="row d-flex align-items-center col-12">
                             <h2>Select whatever you want!</h2>
                             <ProductSelection/>

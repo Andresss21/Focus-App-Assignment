@@ -21,7 +21,7 @@ export const ProductSelection = () => {
         return (
             <div key={id} class="col-4 py-2  align-items-center">
                 <button 
-                class="button-selection" 
+                class="button-selection button-size" 
                 onClick={() => handleTime(name,preparation_time)}>
                     {name}
                 </button>
@@ -32,7 +32,7 @@ export const ProductSelection = () => {
     return (
         <>
             {renderList}
-            <div>
+            <div className="list-section">
                 <h1>Product list</h1>
 
                 

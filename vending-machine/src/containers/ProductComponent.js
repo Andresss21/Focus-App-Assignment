@@ -8,7 +8,7 @@ export const ProductComponent = () => {
     const renderList = products.map((product) => {
         const {id, name, preparation_time, thumbnail} = product;
         return (
-            <div className="mt-3 col-6 d-flex align-items-stretch">
+            <div className="mt-3 col-md-6 col-sm-12 d-flex align-items-center">
 
                 <div className="custom-card">
                     
@@ -23,6 +23,7 @@ export const ProductComponent = () => {
                         <div className="d-flex flex-column text-right mr-2"> <span class="prep-time">Preparation Time:</span> <span class="amount">{preparation_time} s</span> </div>
                     </div>
                     </Card.Footer>
+                    
                     
                 </div>
             </div>
