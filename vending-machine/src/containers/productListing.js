@@ -5,6 +5,7 @@ import ProductComponent from './ProductComponent';
 import { ProductSelection } from './ProductSelection';
 import { setProducts } from '../redux/actions/productActions';
 
+
 export const ProductListing = () => {
     const products = useSelector((state) => state);
     const dispatch = useDispatch();
@@ -26,20 +27,21 @@ export const ProductListing = () => {
 
     return (
         <div>
-            <div class="container">
+            <div className="container">
 
-                <div class="row">
-                    <div class="col-6">
-                        <div class="row products-section">
+                <div className="row">
+                    <div className="col-6">
+                        <div className="row products-section">
                         <ProductComponent />
                         </div>
                     </div>
 
-                    <div class="col-6">
-                        <div class="row d-flex align-items-center">
+                    <div className="col-6">
+                        <div className="row d-flex align-items-center col-12">
                             <h2>Select whatever you want!</h2>
                             <ProductSelection/>
                         </div>
+                        
                     </div>
                 </div>
 
